@@ -69,8 +69,8 @@ export const DATA = {
   work: [
     {
       company: "Redesyn",
-      href: "https://li.me/",
-      badges: [],
+      href: "",
+      badges: ["Full-time"],
       location: "Thane, Maharashtra",
       title: "Software Engineer",
       logoUrl: "./redesyn_logo.jpeg",
@@ -81,8 +81,8 @@ export const DATA = {
     },
     {
       company: "Soft Solutions",
-      href: "https://mitremedia.com/",
-      badges: [],
+      href: "",
+      badges: ["Freelance"],
       location: "Remote",
       title: "Ruby on Rails Developer",
       logoUrl: "./softsol.svg",

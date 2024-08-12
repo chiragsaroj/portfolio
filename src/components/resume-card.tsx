@@ -61,11 +61,11 @@ export const ResumeCard = ({
               <h3 className="inline-flex items-center justify-center font-semibold leading-none text-xs sm:text-sm">
                 {title}
                 {badges && (
-                  <span className="inline-flex gap-x-1">
+                  <span className="inline-flex gap-x-1 ms-1">
                     {badges.map((badge, index) => (
                       <Badge
-                        variant="secondary"
-                        className="align-middle text-xs"
+                        variant="outline"
+                        className="align-middle text-xs scale-75 hidden sm:block rounded-none"
                         key={index}
                       >
                         {badge}
