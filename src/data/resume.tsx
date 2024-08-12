@@ -11,7 +11,7 @@ export const DATA = {
     "Software Engineer. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
   summary:
     "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
-  avatarUrl: "/dp.jpg",
+  avatarUrl: "./dp.jpg",
   skills: [
     "React",
     "Next.js",
@@ -77,7 +77,7 @@ export const DATA = {
       badges: [],
       location: "Thane, Maharashtra",
       title: "Software Engineer",
-      logoUrl: "/redesyn_logo.jpeg",
+      logoUrl: "./redesyn_logo.jpeg",
       start: "February 2023",
       end: "Present",
       description:
@@ -89,7 +89,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Ruby on Rails Developer",
-      logoUrl: "/softsol.svg",
+      logoUrl: "./softsol.svg",
       start: "May 2022",
       end: "February 2023",
       description:
@@ -101,7 +101,7 @@ export const DATA = {
       school: "Jain University",
       href: "https://www.jainuniversity.ac.in/",
       degree: "Master of Computer Applications (MCA) in Computer Science and IT",
-      logoUrl: "/jain_logo.jpg",
+      logoUrl: "./jain_logo.jpg",
       start: "2022",
       end: "2024",
     },
@@ -109,7 +109,7 @@ export const DATA = {
       school: "Mumbai University",
       href: "https://mu.ac.in/",
       degree: "Bachelor of Science in Information Technology (BSC IT)",
-      logoUrl: "/mu_logo.jpg",
+      logoUrl: "./mu_logo.jpg",
       start: "2019",
       end: "2022",
     },
