@@ -27,7 +27,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "hello@example.com",
@@ -58,14 +58,14 @@ export const DATA = {
         name: "Youtube",
         url: "https://dub.sh/dillion-youtube",
         icon: Icons.youtube,
-        navbar: true,
+        navbar: false,
       },
       email: {
         name: "Send Email",
         url: "#",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
       },
     },
   },
