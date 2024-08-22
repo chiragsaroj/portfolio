@@ -6,19 +6,22 @@ export const DATA = {
   initials: "CS",
   url: "https://dillion.io",
   location: "Thane, Maharashtra",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  // locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software Engineer. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
+    "Software Engineer crafting seamless digital experiences from abstract ideas.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "As a dedicated software engineer, I excel in transforming intricate, abstract ideas into fully functional and seamless digital experiences. My expertise lies in building robust systems with technologies like Ruby on Rails, Python, React, and AWS, ensuring that the entire application operates with reliability and high performance.",
   avatarUrl: "./dp.jpg",
   skills: [
     "Ruby on Rails",
     "Python",
     "React.js",
     "Amazon Web Services",
+    "Typescript / Javascript",
+    "React Native",
     "Tailwind CSS",
     "Postgres",
+    "Redis",
     "Docker",
   ],
   navbar: [
@@ -26,8 +29,8 @@ export const DATA = {
     // { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "chiragsaroj1804@gmail.com",
+    tel: "+91 8291793215",
     social: {
       GitHub: {
         name: "GitHub",
@@ -45,7 +48,7 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/ChiragSaroj_",
         icon: Icons.x,
 
         navbar: true,
@@ -56,11 +59,10 @@ export const DATA = {
         icon: Icons.youtube,
         navbar: false,
       },
-      email: {
-        name: "Send Email",
-        url: "#",
+      "chiragsaroj1804@gmail.com": {
+        name: "Email",
+        url: "mailto:chiragsaroj1804@gmail.com",
         icon: Icons.email,
-
         navbar: true,
       },
     },
@@ -69,27 +71,27 @@ export const DATA = {
   work: [
     {
       company: "Redesyn",
-      href: "",
-      badges: ["Full-time"],
+      href: "https://www.redesyn.com/",
+      badges: [],
       location: "Thane, Maharashtra",
       title: "Software Engineer",
       logoUrl: "./redesyn_logo.jpeg",
       start: "February 2023",
       end: "Present",
       description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
+        "Engineered complex server-side logic and RESTful APIs in Ruby on Rails, enabling smooth communication between front-end and back-end systems. Led the development of an Active Admin panel for internal administration, crafted reusable Next.js components, and seamlessly integrated backend APIs. Also implemented React Query for optimized data fetching and managed Ruby on Rails servers while deploying Python Flask APIs on AWS EC2. Additionally, I created a multi-touch attribution system with FastAPI to track and attribute user interactions across various touchpoints, ensuring comprehensive data analysis.",
     },
     {
       company: "Soft Solutions",
       href: "",
-      badges: ["Freelance"],
+      badges: [],
       location: "Remote",
       title: "Ruby on Rails Developer",
       logoUrl: "./softsol.svg",
       start: "May 2022",
       end: "February 2023",
       description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
+        "Developed a comprehensive all-in-one e-commerce admin panel encompassing operations, logistics, and CRM, with features for order management, inventory tracking, shipping logistics, and customer relationship management. Integrated third-party solutions for payment processing, shipping carriers, and analytics, and optimized the system for high performance and scalability to handle large data volumes efficiently.",
     },
   ],
   education: [
