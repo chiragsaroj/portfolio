@@ -4,13 +4,13 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Chirag Saroj",
   initials: "CS",
-  url: "https://dillion.io",
+  url: "https://chiragsaroj.github.io/portfolio/",
   location: "Thane, Maharashtra",
   // locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
     "Software Engineer crafting seamless digital experiences from abstract ideas.",
   summary:
-    "As a dedicated software engineer, I excel in transforming intricate, abstract ideas into fully functional and seamless digital experiences. My expertise lies in building robust systems with technologies like Ruby on Rails, Python, React, and AWS, ensuring that the entire application operates with reliability and high performance.",
+    "As a dedicated software engineer, I excel in transforming intricate, abstract ideas into fully functional and seamless digital experiences. My expertise lies in building robust systems with technologies like Ruby on Rails, Python, React, AWS and more ensuring that the entire application operates with reliability and high performance.",
   avatarUrl: "./dp.jpg",
   skills: [
     "Ruby on Rails",
@@ -23,6 +23,7 @@ export const DATA = {
     "Postgres",
     "Redis",
     "Docker",
+    "C++"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -79,7 +80,7 @@ export const DATA = {
       start: "February 2023",
       end: "Present",
       description:
-        "Engineered complex server-side logic and RESTful APIs in Ruby on Rails, enabling smooth communication between front-end and back-end systems. Led the development of an Active Admin panel for internal administration, crafted reusable Next.js components, and seamlessly integrated backend APIs. Also implemented React Query for optimized data fetching and managed Ruby on Rails servers while deploying Python Flask APIs on AWS EC2. Additionally, I created a multi-touch attribution system with FastAPI to track and attribute user interactions across various touchpoints, ensuring comprehensive data analysis.",
+        "Engineered complex server-side logic and APIs in Ruby on Rails, enabling smooth communication between front-end and back-end systems. Led the development of an Active Admin panel for internal administration, crafted reusable Next.js components, and seamlessly integrated backend APIs. Also implemented React Query for optimized data fetching and managed Ruby on Rails servers while deploying Python Flask APIs on AWS EC2. Additionally, I created a multi-touch attribution system with FastAPI to track and attribute user interactions across various touchpoints, ensuring comprehensive data analysis.",
     },
     {
       company: "Soft Solutions",
